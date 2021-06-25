@@ -1,0 +1,122 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  font-size: 45px;
+  width: 800px;
+  padding: 70px 20px;
+  margin-top: 100px;
+}
+
+h1 {
+  color: #1877F2;
+  font-size: 85px;
+  margin-bottom: 0;
+}
+
+.header-para {
+  margin-top: 0;
+}
+
+.top {
+  background-color: hsl(228, 25%, 92%);
+  padding: 10px 0 0 0;
+}
+
+main {
+  width: 600px;
+  position: relative;
+  left: 900px;
+  bottom: 450px;
+}
+
+.input {
+  background-color: #FFF;
+  padding: 30px;
+  border-radius: 10px;
+  /*-moz-box-shadow:    0px 3px 5px 3px #ccc;
+  -webkit-box-shadow: 0px 3px 5px 3px #ccc;*/
+  box-shadow:         0px 3px 5px 3px #ccc;
+}
+
+.email, .password {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  border: 1px solid hsl(229, 17%, 58%);
+}
+
+.submit {
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 550px;
+  color: #FFF;
+  background-color: #1877F2;
+  border: none;
+  font-weight: 650;
+}
+
+.link {
+  color: #1877F2;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  left: 180px;
+}
+
+button {
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 650;
+  color: #FFF;
+  border-radius: 10px;
+  border: none;
+  background-color: forestgreen;
+  margin-top: 20px;
+  position: relative;
+  left: 120px;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.para {
+  text-align: center;
+  font-size: 23px;
+}
+
+.cap {
+  color: black;
+}
+
+footer {
+  color: hsl(229, 17%, 58%);
+  font-size: 19px;
+  font-weight: 490;
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(229, 17%, 58%);
+}
+
+hr {
+  margin: 20px 0;
+}
+
+span {
+  margin: 17px;
+}
+
+.copyright {
+  margin: 16px;
+}
